@@ -817,7 +817,46 @@ footer small {
     text-align: center;
     text-shadow: 2px 2px 10px #000;
 }
-
 .opening-soon-text span {
     color: #ff2028;
 }
+
+
+/* GAMING COMMUNITY SECTION */
+
+.gaming-community-section {
+    background: #111;
+    border-top: 1px solid #292929;
+    border-bottom: 1px solid #292929;
+    padding: 65px 20px;
+    text-align: center;
+}
+
+.gaming-community-section h2 {
+    color: #ffffff;
+    font-size: clamp(28px, 4vw, 42px);
+    font-weight: 900;
+    margin: 12px 0;
+}
+
+.gaming-community-section h2 span {
+    color: #ff2028;
+}
+
+.gaming-community-section > p:not(.eyebrow) {
+    color: #a7a7ad;
+    max-width: 650px;
+    margin: 15px auto 25px;
+    line-height: 1.7;
+}
+
+.community-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+
+
+
