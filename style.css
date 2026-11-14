@@ -804,3 +804,20 @@ footer small {
     order: 3;
   }
 }
+
+.opening-soon-text {
+    position: absolute;
+    top: 50%;
+    right: 13%;
+    transform: translateY(-50%);
+    z-index: 10;
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 2px 2px 10px #000;
+}
+
+.opening-soon-text span {
+    color: #ff2028;
+}
