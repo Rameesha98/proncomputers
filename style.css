@@ -858,5 +858,22 @@ footer small {
 }
 
 
+/* FIX OPENING SOON TEXT ON MOBILE */
+
+@media (max-width: 768px) {
+    .opening-soon-text {
+        top: 5%;
+        right: 0;
+        width: 100%;
+        transform: none;
+        font-size: clamp(30px, 8vw, 42px);
+        text-align: center;
+        white-space: nowrap;
+        padding: 0 5px;
+    }
+}
+
+
+
 
 
